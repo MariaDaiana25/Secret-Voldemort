@@ -1,0 +1,103 @@
+.all-container {
+    background-color: #1f3d26;
+    width: 100%;
+    height: 44.8vmax;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+}
+
+.windows-players {
+    background-color: #0a0404e7;
+    width:35%;
+    height:90%;
+    margin: 2% 0 0 2%;
+    border-color: #916641c4;
+    border-style: double;
+    border-radius: 15px;
+    position: absolute;
+    display: inline-block;
+}
+
+.list-players {
+    background-color: #1b163149;
+    color: rgb(134, 134, 134);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    padding: 2%;
+    text-align: center;
+    border-style: double;
+    border-color: #1b1631e8;
+    border-radius: 15px;
+    margin: 0 0 0 23%;
+    width: 60%;
+    height: 65%;
+}
+
+.players {
+    color: rgb(134, 134, 134);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    padding: 2%;
+    border-radius: 15px;
+    margin: 0 0 0 25%;
+    width: 43%;
+}
+
+.marcador {
+    background-color: #0a0404e7;
+    color: rgb(134, 134, 134);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    border-color: #916641c4;
+    border-style: double;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 0 0 52%;
+    width: 45%;
+    display: inline-block;
+}
+
+  .cantidad-marcador {
+    color: #973434;
+    font-size: 35px;
+    width: 30%;
+  }
+
+.nicknames {
+    color: #973434;
+    font-size: 25px;
+    width: 20%;
+    margin: 0 0 0 0;
+  }
+
+.list-Nicknames {
+    color: rgb(134, 134, 134);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.cards {
+    width: 25%;
+    padding: 2%;
+    position:relative;
+    display: inline-block;
+}
+
+/* probando componente vote dentro de board */
+.vote_component {
+    background-color: #ffff00ad;
+    margin-top: 40%;
+}
+
+.Nicknames {
+    color: rgb(138, 10, 10);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    margin: 0;
+}

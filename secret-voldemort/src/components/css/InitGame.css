@@ -1,0 +1,26 @@
+.fondo_InitGame{
+  margin: 170px 0 0 auto;
+  background-position: table;
+  display: inline-block;
+  position: absolute;
+  }
+
+.button-initgame:hover{
+  transform: scale(.98);
+}
+
+.button-initgame {
+  background:#000000b6;
+  color: #7e7a7a;
+  font-family: Impact;
+  font-size: 25px;
+  line-height: 45px;
+  padding: 8px;
+  border-radius: 10px;  
+  display: block;
+  width: 20%;
+  margin: 30% 0 0 9%;
+  position: absolute;
+  display: inline-block;
+  transition: 0.4s ease-in-out;
+}

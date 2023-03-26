@@ -1,0 +1,305 @@
+:root {
+    --transparency-proc-ON: 1;
+    --transparency-proc-OFF: 0;
+}
+
+.borde-board {
+    padding: 10px;
+    background-color: #0a0404e7;
+    width:625px;
+    height:390px;
+    margin: 4%  0 0 627px;
+    border-color: #916641c4;
+    border-style: double;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+} 
+
+.board_Ord_Fenix {
+    background-image: url(../../img/board_and_cards/TableroOF.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 97%;
+    height: 50%;
+    margin: 0 0 0 0;
+    position: absolute;
+    display: inline-block;
+}
+
+.board_Mortifago_1 {
+    background-image: url(../../img/board_and_cards/TableroM1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 97%;
+    height: 50%;
+    margin: 178px 0 0 0;
+    position: absolute;
+    display: inline-block;
+}
+
+
+
+/* CARTAS DE PRCLAMACION DE MORTIFAGOS */
+/* var-transparenci-proc: 0; */
+
+.procMortifago-ON {
+    width: 24%;
+    height: 91%;
+    padding: 4%;
+    margin: 5px 0 0  8px;
+    opacity: var(--transparency-proc-ON);
+    position: absolute;
+    display: inline-block;
+}
+.procMortifago-OFF {
+    width: 24%;
+    height: 92%;
+    padding: 4%;
+    margin: 5px 0 0  8px;
+    opacity: var(--transparency-proc-OFF);
+    position: absolute;
+    display: inline-block;
+}
+
+.procMortifago1-ON {
+    width: 24%;
+    height: 92%;
+    padding: 4%;
+    margin: 5px  2px 0  96px;
+    opacity: var(--transparency-proc-ON);
+    position: absolute;
+    display: inline-block;
+}
+.procMortifago1-OFF {
+    width: 24%;
+    height: 92%;
+    padding: 4%;
+    margin: 5px  2px 0  96px;
+    opacity: var(--transparency-proc-OFF);
+    position: absolute;
+    display: inline-block;
+}
+
+
+.procMortifago2-ON {
+    width: 24%;
+    height: 92%;
+    padding: 4%;
+    margin: 5px  30px 0  185px;
+    opacity: var(--transparency-proc-ON);
+    position: absolute;
+    display: inline-block;
+}
+.procMortifago2-OFF {
+    width: 24%;
+    height: 92%;
+    padding: 4%;
+    margin: 5px  30px 0  185px;
+    opacity: var(--transparency-proc-OFF);
+    position: absolute;
+    display: inline-block;
+}
+
+
+.procMortifago3-OFF {
+    width: 24%;
+    height: 92%;
+    padding: 4%;
+    margin: 5px 1px 0  274px;
+    opacity: var(--transparency-proc-OFF);
+    position: absolute;
+    display: inline-block;
+}
+.procMortifago3-ON {
+    width: 24%;
+    height: 92%;
+    padding: 4%;
+    margin: 5px 1px 0  274px;
+    opacity: var(--transparency-proc-ON);
+    position: absolute;
+    display: inline-block;
+}
+
+
+.procMortifago4-ON {
+    width: 24%;
+    height: 92%;
+    padding: 4%;
+    margin: 5px  2px 0  363px;
+    opacity: var(--transparency-proc-ON);
+    position: absolute;
+    display: inline-block;
+}
+.procMortifago4-OFF {
+    width: 24%;
+    height: 92%;
+    padding: 4%;
+    margin: 5px  2px 0  363px;
+    opacity: var(--transparency-proc-OFF);
+    position: absolute;
+    display: inline-block;
+}
+
+.procMortifago5-ON {
+    width: 24%;
+    height: 92%;
+    padding: 4%;
+    margin: 5px  2px 0  452px;
+    opacity: var(--transparency-proc-ON);
+    position: absolute;
+    display: inline-block;
+}
+.procMortifago5-OFF {
+    width: 24%;
+    height: 92%;
+    padding: 4%;
+    margin: 5px  2px 0  452px;
+    opacity: var(--transparency-proc-OFF);
+    position: absolute;
+    display: inline-block;
+}
+
+    /* CRTAS DE PROCLAMACION ORDEN DEL FENIX */
+ 
+.procOrdFenix-ON {
+    width: 23%;
+    height: 88%;
+    padding: 4%;
+    margin: 9px  2px 0  53px;
+    opacity: var(--transparency-proc-ON);
+    position: absolute;
+    display: inline-block;
+}
+.procOrdFenix-OFF {
+    width: 23%;
+    height: 88%;
+    padding: 4%;
+    margin: 9px  2px 0  53px;
+    opacity: var(--transparency-proc-OFF);
+    position: absolute;
+    display: inline-block;
+}
+
+.procOrdFenix1-ON{
+    width: 23%;
+    height: 88%;
+    padding: 4%;
+    margin: 9px  2px 0  142px;
+    opacity: var(--transparency-proc-ON);
+    position: absolute;
+    display: inline-block;
+}
+.procOrdFenix1-OFF {
+    width: 23%;
+    height: 88%;
+    padding: 4%;
+    margin: 9px  2px 0  142px;
+    opacity: var(--transparency-proc-OFF);
+    position: absolute;
+    display: inline-block;
+}
+
+.procOrdFenix2-ON {
+    width: 23%;
+    height: 88%;
+    padding: 4%;
+    margin: 9px  2px 0  230px;
+    opacity: var(--transparency-proc-ON);
+    position: absolute;
+    display: inline-block;
+}
+.procOrdFenix2-OFF {
+    width: 23%;
+    height: 88%;
+    padding: 4%;
+    margin: 9px  2px 0  230px;
+    opacity: var(--transparency-proc-OFF);
+    position: absolute;
+    display: inline-block;
+}
+
+.procOrdFenix3-ON {
+    width: 23%;
+    height: 88%;
+    padding: 4%;
+    margin: 9px  2px 0  318px;
+    opacity: var(--transparency-proc-ON);
+    position: absolute;
+    display: inline-block;
+}
+.procOrdFenix3-OFF {
+    width: 23%;
+    height: 88%;
+    padding: 4%;
+    margin: 9px  2px 0  318px;
+    opacity: var(--transparency-proc-OFF);
+    position: absolute;
+    display: inline-block;
+}
+
+.procOrdFenix4-ON {
+    width: 23%;
+    height: 88%;
+    padding: 4%;
+    margin: 9px  2px 0  408px;
+    opacity: var(--transparency-proc-ON);
+    position: absolute;
+    display: inline-block;
+}
+.procOrdFenix4-OFF {
+    width: 23%;
+    height: 88%;
+    padding: 4%;
+    margin: 9px  2px 0  408px;
+    opacity: var(--transparency-proc-OFF);
+    position: absolute;
+    display: inline-block;
+}
+
+/* MARCADORES */
+
+.marcador_1 {
+    background-color: #1d0364c9;
+    width: 3%;
+    height: 9%;
+    border-radius: 50%;
+    margin: 154px 0 0 197px;
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+}
+
+.marcador_2 {
+    background-color: #1d0364c9;
+    width: 3%;
+    height: 9%;
+    border-radius: 50%;
+    margin: 155px 0 0 257px;
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+}
+
+.marcador_3 {
+    background-color: #1d0364c9;
+    width: 3%;
+    height: 9%;
+    border-radius: 50%;
+    margin: 155px 0 0 317px;
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+}
+
+.marcador_4 {
+    background-color: #1d0364c9;
+    width: 3%;
+    height: 9%;
+    border-radius: 50%;
+    margin: 155px 0 0 377px;
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+}
+

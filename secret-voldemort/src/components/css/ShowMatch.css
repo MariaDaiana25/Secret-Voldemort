@@ -1,0 +1,112 @@
+.content-all-showmatch {
+    background-color: #040516;
+    width: 100%;
+    height: 44.8vmax;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+}
+
+.content-showmatch {
+    background-color: #4609092c;
+    width:35%;
+    height:37%;
+    margin: 10% 0 0 30%;
+    border-radius: 25px;
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+}
+
+.text-showmatch {
+    color: rgb(134, 134, 134);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding: 5%;
+    width: 50%;
+    margin: 0 0 0 13%;
+}
+
+.button-join {
+    background:#000000de;
+    color: #8f8f8f;
+    font-family: Impact;
+    font-size: 25px;
+    width: 90px;
+    margin-left: 30%;
+    line-height: 45px;
+    padding: 2px;
+    border-radius: 10px;  
+    display: table;
+    transition: 0.4s ease-in-out;
+}
+
+.boton-match:hover {
+    transform: scale(.97);
+
+}
+
+.boton-match {
+    background:#000000de;
+    color: #8f8f8f;
+    font-family: Impact;
+    font-size: 25px;
+    width: 40%px;
+    text-align: center;
+    line-height: 45px;
+    border-color: rgba(216, 191, 216, 0.356);
+    border-style: solid 10px;
+    border-radius: 10px;  
+    display: block;
+    margin: 0 auto 0 auto;
+    transition: 0.4s ease-in-out;
+}
+
+
+.content-joinMatch {
+    background-color: rgba(236, 82, 82, 0);
+    width: 70%;
+    margin: 5% 0 0 17%;
+}
+
+.name-match {
+    color: #868686;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 2%;
+    border-radius: 15px;
+    margin: 0 0 0 18%;
+    width: 60%;
+}
+
+.text-number-players{
+    color: #868686;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.number-players{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    color: #911212;
+    padding: 2%;
+}
+
+.content-title-showmatch {
+    background-color: #d3f80000;
+    width: 80%;
+    margin: 15% 0 0 15%;
+}
+
+.loading-games {
+    padding: 3%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: #b8b8b8;
+}
+.spinner-showmatch{
+    margin-left: 5%;
+    padding: 3%;
+}
